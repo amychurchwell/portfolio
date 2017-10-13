@@ -30,6 +30,14 @@
   background-color: hotpink;
 }
 
+.figure{
+  float: right
+}
+
+.alert{
+  margin: 20px;
+}
+
 .row h2{
   color: hotpink;
   padding: 5px;

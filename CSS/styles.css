@@ -32,7 +32,6 @@
 
 .row h2{
   color: hotpink;
-  text-decoration: dashed overline;
   padding: 5px;
   font-weight: lighter;
 }
@@ -42,6 +41,15 @@
 }
 
 .card a{
+  color: hotpink;
+}
+
+.card-header{
+  background-color: hotpink;
+  color: white;
+}
+
+.card-title{
   color: hotpink;
 }
 
@@ -61,4 +69,5 @@
 .info{
   float: left;
   padding: 15px;
+  width:400px;
 }

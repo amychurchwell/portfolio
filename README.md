@@ -1,6 +1,6 @@
 # _Portfolio_
 
-#### _{Brief description of application}, October 13, 2017_
+#### _Week 1 Portfolio Webpage, October 13, 2017_
 
 #### By _Amy Churchwell_
 

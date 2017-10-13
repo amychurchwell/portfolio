@@ -1,20 +1,39 @@
-
-.card-group{
-  width: 600px;
+.card-img-overlay{
+  text-align: center;
+  padding: 50px;
 }
 
-.display-3{
-  padding-top: 15px;
+#header{
+  font-family: 'Shrikhand', cursive;
+  padding-top: 50px;
+  text-decoration: dotted underline;
+}
+
+.row h2{
+  color: hotpink;
+  text-decoration: dashed overline;
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.container{
+  padding: 50px;
+}
+
+.card a{
+  color: hotpink;
 }
 
 .pink{
   background-color: #FCCDD6;
 }
 
-.card-link{
-  color: hotpink;
-}
 
 .bold{
   font-weight: bold;
+}
+
+.info{
+  float: left;
+  padding: 15px;
 }

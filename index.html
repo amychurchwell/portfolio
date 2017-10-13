@@ -30,13 +30,13 @@
           <hr>
           <p>THANK YOU FOR ASKING!</p>
           <p><strong>I am a student who follows directions.</strong><br> Which is why I am including the following information:</p>
-          <strong>INTERESTS</strong>
-          <ul>
-            <li>drawing and illustration.</li>
-            <li><span class="badge badge-light">New!</span> dungeons and dragons.</li>
-            <li>agriculture and sustainability.</li>
-            <li>screen printing and graphic design.</li>
-            <li>writing words with "and" between them.</li>
+          <h3>INTERESTS</h3>
+          <ul class="list-group">
+            <li class="list-group-item">drawing and illustration.</li>
+            <li class="list-group-item"><span class="badge badge-secondary">New!</span> dungeons and dragons.</li>
+            <li class="list-group-item">agriculture and sustainability.</li>
+            <li class="list-group-item">screen printing and graphic design.</li>
+            <li class="list-group-item"><del>writing words with "and" between them.</del></li>
           </ul>
         </div>
       </div>
@@ -46,13 +46,13 @@
           <p class="lead"><span class="bold">WHERE DID YOU LEARN?</span></p>
           <hr>
           <p>I am an awful multiplier. <br><mark>Please do not ask me to math at any time. Ever.</mark><br> <em>Thank you for your consideration.</em></p>
-          <strong>SCHOOLING</strong><br>
-          <ol>
-            <li><span class="badge badge-light">New!</span> Epicodus</li>
-            <li>University of West Florida</li>
-            <li>School of Visual Arts</li>
-            <li>Pensacola Junior College</li>
-            <li>Gulf Breeze High School</li>
+          <h3>SCHOOLING</h3>
+          <ol class="list-group">
+            <li class="list-group-item"><span class="badge badge-secondary">New!</span> Epicodus</li>
+            <li class="list-group-item">University of West Florida</li>
+            <li class="list-group-item">School of Visual Arts</li>
+            <li class="list-group-item">Pensacola Junior College</li>
+            <li class="list-group-item">Gulf Breeze High School</li>
           </ul>
         </div>
       </div>
@@ -60,33 +60,43 @@
     <div class="row">
     <h2>Select Week 1 Projects.</h2>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
+      <div class="card-columns">
+      <div class="card border-pink">
+        <img class="card-img-top rounded" src="images/benfolds.jpg" alt="Photo of Ben Folds.">
+        <div class="card-body text-secondary">
+          <h4 class="card-title">Ben Folds Fan Page</h4>
+          <p class="card-text">A simple fanpage for Ben Folds, who is Cheryl's favorite musician. We used HTML, CSS, and Bootstrap.</p>
+          <hr>
+          <a href="https://github.com/amychurchwell/ben_folds" class="card-link">GitHub Repository</a>
+        </div>
+      </div>
+        <div class="card border-pink">
           <img class="card-img-top rounded" src="images/pig.gif" alt="Animated gif of piglet.">
-          <div class="card-body">
+          <div class="card-body text-secondary">
             <h4 class="card-title">Animal Shelter</h4>
             <p class="card-text">A simple webpage practicing cascading. Uses HTML, CSS, bootstrap. Experimenting with bootstrap grids.</p>
             <hr>
             <a href="https://github.com/amychurchwell/animal_shelter" class="card-link">GitHub Repository</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top rounded" src="images/benfolds.jpg" alt="Photo of Ben Folds.">
-          <div class="card-body">
-            <h4 class="card-title">Ben Folds Fan Page</h4>
-            <p class="card-text">A simple fanpage for Ben Folds, who is Cheryl's favorite musician. We used HTML, CSS, and Bootstrap.</p>
-            <hr>
-            <a href="https://github.com/amychurchwell/ben_folds" class="card-link">GitHub Repository</a>
+        <div class="card border-pink">
+          <img class="card-img-top rounded" src="images/computer.gif" alt="Photography of Glenorchy.">
+          <div class="card-body text-secondary">
+            <h4 class="card-title">Week In Review</h4>
+            <p class="card-text">A page about our first week at Epicodus using HTML, CSS, Boostrap.</p>
+            <a href="https://github.com/amychurchwell/week-in-review" class="card-link">GitHub Repository</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
+<!--CARD SET 1 END HERE-->
+        <div class="card p-5">
+          <blockquote class="blockquote">
+            <p class="mb-0">"Wow, these webpages look like they were built by someone who has never coded before."</p>
+            <footer class="blockquote-footer">person on the internet.</footer>
+          </blockquote>
+        </div>
+        <div class="card border-pink">
           <img class="card-img-top rounded" src="images/vacation.jpg" alt="Photography of Glenorchy.">
-          <div class="card-body">
+          <div class="card-body text-secondary">
             <h4 class="card-title">Travel Agency</h4>
             <p class="card-text">A simple webpage for traveling to Glenorchy, Iceland. Which is the location of a show Adam likes.</p>
             <a href="https://github.com/amychurchwell/vacation2" class="card-link">Repository #1</a>
@@ -96,8 +106,25 @@
             </div>
           </div>
         </div>
+        <div class="card border-pink">
+          <img class="card-img-top rounded" src="images/puppy.jpg" alt="Photo of a German Shepherd puppy.">
+          <div class="card-body text-secondary">
+            <h4 class="card-title">Pet Page</h4>
+            <p class="card-text">A page about my dog, Tala. Used HTML.</p>
+            <hr>
+            <a href="https://github.com/amychurchwell/pet-page" class="card-link">GitHub Repository</a>
+          </div>
+        </div>
+        <div class="card border-pink">
+          <img class="card-img-top rounded" src="images/wikipedia.jpg" alt="Wikipedia logo.">
+          <div class="card-body text-secondary">
+            <h4 class="card-title">Wikipedia Homepage</h4>
+            <p class="card-text">An attempt to copy the style of Wikipedia. Used HTML, CSS, and bootstrap elements.</p>
+            <hr>
+            <a href="https://github.com/amychurchwell/wikipedia" class="card-link">GitHub Repository</a>
+          </div>
+        </div>
       </div>
-<!--CARD SET 1 END HERE-->
     </div>
   </body>
 </html>

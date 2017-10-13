@@ -3,10 +3,31 @@
   padding: 50px;
 }
 
+.blockquote{
+  font-size: 25px;
+}
+
+.blockquote-footer{
+  font-variant: small-caps;
+  color: black;
+}
+
+.p-5{
+  background-color: #FCCDD6;
+}
+
 #header{
   font-family: 'Shrikhand', cursive;
   padding-top: 50px;
   text-decoration: dotted underline;
+}
+
+.border-pink {
+  border-color: hotpink;
+}
+
+.badge-secondary{
+  background-color: hotpink;
 }
 
 .row h2{
@@ -22,6 +43,10 @@
 
 .card a{
   color: hotpink;
+}
+
+.card-columns{
+  display: inline-block;
 }
 
 .pink{

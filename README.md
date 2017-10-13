@@ -8,6 +8,9 @@
 
 _A portfolio webpage that uses HTML and CSS. Uses bootstrap framework._
 
+## Link to GitHub Pages
+_https://amychurchwell.github.io/portfolio/_
+
 ## Setup/Installation Requirements
 
 * _Browser of choice._
